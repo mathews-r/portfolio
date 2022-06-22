@@ -1,0 +1,151 @@
+/* CSS OF INDEX */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+body {
+    background-color: #D9D9D9;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title-header {
+    color: white;
+}
+
+#strong-header {
+    color: black;
+}
+
+.li-menu {
+    display: inline;
+    opacity: 0.8;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.li-menu:hover {
+    background-color: #4F6D7A;
+    color: white;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4F6D7A;
+    color: #EAEAEA;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 6px;
+    height: 50px;
+}
+
+#ul-menu {
+    list-style-type: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+#sec-one {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+    background-color: #EAEAEA;
+}
+
+.div-text {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#title {
+    font-size: 25px;
+}
+
+.div-image {
+    display: flex;
+    width: 600px;
+}
+
+#photo-mathews {
+    border-radius: 10%;
+    height: 400px;
+}
+
+.logoredesocial {
+    width: 30px;
+    padding: 10px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4F6D7A;
+    height: 240px;
+}
+
+.logoredesocial:hover {
+    transform: scale(1.1);
+}
+
+/* @media screen and (max-width: 450px) {
+ 
+#imagem-mathews {
+margin-left: 105px;
+}
+
+#header {
+    display: flex;
+    background-color: #036b52;
+}
+
+#footer {
+    display: flex;
+}
+
+#divredesociais {
+    width: 100%;
+    background-color: #036b52; 
+    justify-content: end;
+    margin-top: 40px;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+#section {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+} */
