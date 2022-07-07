@@ -11,6 +11,7 @@ class App extends React.Component {
         <Route exact path="/portfolio" component={Home} />
         <Route path="/portfolio#about" component={About} />
         <Route exact path="/portfolio#central-box" component={Projects} />
+        <Home />
       </BrowserRouter>
 
 
