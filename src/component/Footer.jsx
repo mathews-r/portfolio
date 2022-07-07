@@ -1,8 +1,9 @@
 import React from 'react';
-import '../style.css';
 import Linkedin from '../images/logolinkedin.png';
 import Github from '../images/logogithub.png';
 import Gmail from '../images/logogmail.png';
+import '../styles/style.css'
+import '../styles/footer.css'
 
 class Footer extends React.Component {
   render() {

@@ -1,6 +1,7 @@
 import React from "react";
 import Mathews from '../images/fotomathews.png';
-import '../style.css'
+import '../styles/style.css';
+import '../styles/home.css';
 
 class Section extends React.Component {
   render() {

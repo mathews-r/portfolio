@@ -1,0 +1,28 @@
+#nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 6px;
+  height: 50px;
+}
+
+#ul-menu {
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.li-menu {
+  display: inline;
+  opacity: 0.8;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.li-menu:hover {
+  background-color: #4F6D7A;
+  color: white;
+}

@@ -1,0 +1,27 @@
+#sec-one {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+
+.div-text {
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#title {
+  font-size: 25px;
+}
+
+.div-image {
+  display: flex;
+  width: 600px;
+}
+
+#photo-mathews {
+  border-radius: 10%;
+  height: 400px;
+}
