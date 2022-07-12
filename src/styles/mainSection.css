@@ -1,9 +1,10 @@
-#principal {
+.principal {
   display: flex;
   justify-content: space-around;
   height: 700px;
   align-items: center;
   background-color: #D9D9D9;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .div-text {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header';
 import Footer from './Footer';
-import Section from './Section';
+import MainSection from './MainSection';
 import About from './About';
 import Projects from './Projects';
 
@@ -13,7 +13,7 @@ export default class Home extends Component {
     return (
       <>
       <Header />
-      <Section />
+      <MainSection />
       <About />
       <Projects />
       <Footer />

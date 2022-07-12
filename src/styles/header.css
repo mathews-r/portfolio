@@ -1,6 +1,6 @@
 /* HEADER */
 
-#header {
+.header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -9,6 +9,7 @@
   padding: 10px;
   text-align: center;
   height: 100px;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .title-header {

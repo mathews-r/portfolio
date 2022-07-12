@@ -3,19 +3,19 @@ import ImageProg from '../images/imgHome.png';
 import Linkedin from '../images/logolinkedin.png';
 import Github from '../images/logogithub.png';
 import '../styles/style.css';
-import '../styles/home.css';
+import '../styles/mainSection.css';
 
-class Section extends React.Component {
+class MainSection extends React.Component {
   render() {
     return (
-      <section id="principal">
+      <section className="principal" id="#principal">
 
         <div className="div-text">
 
           <span id="title">
             OLÁ, SEJA BEM VINDO(a)!
             <br />
-            EU SOU O <strong>MATHEWS.</strong>
+            EU SOU O <strong>MATHEWS RODRIGUES.</strong>
             <br /><br />
             <p>SOU DESENVOLVEDOR FRONT-END.</p>
           </span>
@@ -42,4 +42,4 @@ class Section extends React.Component {
   }
 }
 
-export default Section;
+export default MainSection;

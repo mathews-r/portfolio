@@ -4,11 +4,11 @@ import '../styles/projects.css';
 export default class Projects extends Component {
   render() {
     return (
-      <section id="central-box">
+      <section className="central-box" id="#central-box">
 
-<div class="projetos">
+<div className="projetos">
   <div id="projetosOficiais">
-    <p class="p-projects"><strong>Projetos Oficias</strong></p>
+    <p className="p-projects"><strong>Projetos Oficias</strong></p>
     <ul>
       <li >- Projeto Lessons Learned</li>
       <li >- Projeto Pixels Art - Brincando com Pixels</li>
@@ -19,7 +19,7 @@ export default class Projects extends Component {
   </div>
 
   <div id="projetosExtras">
-    <p class="p-projects"><strong>Projetos Extras</strong></p>
+    <p className="p-projects"><strong>Projetos Extras</strong></p>
     <ul>
       <li >- Jogo da Velha</li>
       <li >- Relógio JavaScript</li>

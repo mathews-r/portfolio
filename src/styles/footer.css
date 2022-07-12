@@ -1,15 +1,17 @@
-.logoredesocial {
-  width: 30px;
-  padding: 10px;
-}
-
-#footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.footer {
   align-items: center;
   background-color: #4F6D7A;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bellota Text', cursive;
+  font-weight: 700;
   height: 240px;
+  justify-content: center;
+}
+
+.logoredesocial {
+  padding: 10px;
+  width: 30px;
 }
 
 .logoredesocial:hover {

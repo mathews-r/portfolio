@@ -4,16 +4,14 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Hind Siliguri', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&family=Crimson+Text&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 body {
     background-color: #D9D9D9;
     color: black;
-    font-family: 'Alfa Slab One', cursive;
-    font-family: 'Hind Siliguri', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 a {
