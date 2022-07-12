@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Header from './Header';
-import Footer from './Footer';
-import MainSection from './MainSection';
-import About from './About';
-import Projects from './Projects';
+import Header from '../component/Header';
+import Footer from '../component/Footer';
+import MainSection from '../component/MainSection';
+import About from '../component/About';
+import Projects from '../component/Projects';
 
 export default class Home extends Component {
   render() {
