@@ -8,7 +8,8 @@ const data = [
   {
     name: 'Pixels Art',
     description: 'JavaScript e manipulação de DOM',
-    image: Paleta, 
+    image: Paleta,
+    url: 'https://mathews-r.github.io/Projeto-Pixels-Art/pixelsart.html',
   },
   {
     name: 'Tryunfo',
@@ -24,11 +25,13 @@ const data = [
     name: 'Web Weather',
     description: 'APIs, componentes',
     image: Clima,
+    url: 'https://mathews-r.github.io/Projeto-Clima-Tempo/climatempo.html',
   },
   {
     name: 'Relógio JavaScript',
     description: 'JavaScript e manipulação de DOM',
     image: 'https://super.abril.com.br/wp-content/uploads/2011/01/em-que-hora-acontecem-mais-enfartes.png',
+    url: 'https://mathews-r.github.io/Projeto-Relogio-JS/relogio.html',
   },
   {
     name: 'Online Store',

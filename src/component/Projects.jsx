@@ -15,6 +15,7 @@ export default class Projects extends Component {
             image={project.image}
             name={project.name}
             description={project.description}
+            url={project.url}
             />
             ))}
         </div>
