@@ -20,8 +20,8 @@ class Footer extends React.Component {
         <a href='mailto:mathewsrodrigues9@gmail.com?subject=Quero%20te%20contratar'>
           <img className='logoredesocial' src={Gmail} alt="Logo Gmail" />
         </a>
-        <p>&copy; Mathews Rodrigues</p>
         </div>
+        <p>&copy; Mathews Rodrigues</p>
       </footer>
       </>
     )

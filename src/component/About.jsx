@@ -1,31 +1,27 @@
 import React, { Component } from 'react'
-import Churrasco from '../images/bg-churrasco.jpg';
-import Violao from '../images/bg-music.jpg';
+import Mathews from '../images/fotomathews.png';
 import '../styles/about.css';
 import '../styles/style.css';
 
 export default class About extends Component {
   render() {
     return (
-      <section id="sec-one">
+      <section className="about" id="#about">
         
-    <article class="article-one">
       <div class="div-img-article">
-        <img class="img-article" src={Violao} alt="Foto de violão" />
+        <img class="img-article" src={Mathews} alt="Foto do Mathews" />
       </div>
-      
-        <p>
-        <span id="spantrybe"> Brasileiro, mineiro e estudante de Desenvolvimento Web na <strong>Trybe</strong>
-        <br />Tenho 29 anos e atualmente moro em Barra Mansa - RJ.
-        <br />Nas horas vagas gosto de ouvir músicas e fazer um bom churrasco!
-        <br />Apaixonado por tecnologia, gosto de aprender coisas novas.</span>.
+      <div className="about-me">
+        <h1>SOBRE MIM</h1>
+        <h2>Barra Mansa, Rio de Janeiro</h2>
+
+        <p className="para">
+         Oi! Sou Técnico em Automação e atualmente estou em transição de carreira. <br />Estou me dedicando nos estudos para me tornar um desenvolvedor fullstack. <br />Em fev/2022 tomei a decisão de estudar programação fazendo um curso de Desenvolvimento Web na Trybe.
       </p>
-
-      <div class="div-img-article">
-        <img class="img-article" src={Churrasco} alt="Foto de churrasco" />
+      {/* <div>
+        Currículo
+      </div> */}
       </div>
-
-    </article>
   </section>
 
     )

@@ -1,6 +1,8 @@
+/* HEADER */
+
 #header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #4F6D7A;
   color: #EAEAEA;
@@ -15,4 +17,37 @@
 
 #strong-header {
   color: black;
+}
+
+/* NAV */
+
+#nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 6px;
+  height: 50px;
+}
+
+#ul-menu {
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.li-menu {
+  display: inline;
+  opacity: 0.8;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.li-menu:hover {
+  background-color: #4F6D7A;
+  color: white;
+  font-weight: 100;
 }
