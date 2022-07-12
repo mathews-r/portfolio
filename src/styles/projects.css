@@ -3,14 +3,14 @@
 }
 
 .li-project:hover {
-  color:  #3f5660;
+  color: #3f5660;
   font-size: 17px;
 }
 
-.central-box {
+.projects{
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .p-projects {
@@ -31,6 +31,12 @@
   align-items: center;
   display: flex;
   justify-content: space-around;
-  height: 500px;
-  width: 60%;
+  height: 700px;
+  width: 70%;
+  flex-flow: row wrap;
+}
+
+.projects h2 {
+  margin-top: 20px;
+  font-family: 'Share Tech Mono', monospace;
 }
