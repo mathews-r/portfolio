@@ -6,7 +6,7 @@ import '../styles/style.css';
 export default class About extends Component {
   render() {
     return (
-      <section className="about" id="#about">
+      <section className="about" id="about">
         
       <div className="div-img-article">
         <img className="img-article" src={Mathews} alt="Foto do Mathews" />

@@ -4,7 +4,7 @@ import '../styles/projects.css';
 export default class Projects extends Component {
   render() {
     return (
-      <section className="central-box" id="#central-box">
+      <section className="central-box" id="projects">
 
 <div className="projetos">
   <div id="projetosOficiais">

@@ -1,15 +1,21 @@
 /* HEADER */
 
 .header {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
   background-color: #4F6D7A;
   color: #EAEAEA;
-  padding: 10px;
-  text-align: center;
-  height: 100px;
+  display: flex;
   font-family: 'Source Code Pro', monospace;
+  height: 100px;
+  justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.h1-header:hover {
+  cursor: pointer;
 }
 
 .title-header {
@@ -23,28 +29,28 @@
 /* NAV */
 
 #nav-menu {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin-top: 6px;
+  display: flex;
   height: 50px;
+  justify-content: center;
+  margin-top: 6px;
+  padding: 5px;
 }
 
 #ul-menu {
-  list-style-type: none;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
   width: 500px;
 }
 
 .li-menu {
+  border-radius: 5px;
   display: inline;
+  font-weight: 700;
   opacity: 0.8;
   padding: 5px;
-  border-radius: 5px;
-  font-weight: 700;
 }
 
 .li-menu:hover {

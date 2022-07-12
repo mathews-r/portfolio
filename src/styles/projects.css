@@ -8,30 +8,29 @@
 }
 
 .central-box {
-display: flex;
-justify-content: space-around;
-align-items: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .p-projects {
-  text-align: center;
-  padding: 5px;
   color: rgb(54, 50, 50);
+  padding: 5px;
+  text-align: center;
 }
 
 #projetosOficiais, #projetosExtras {
+  background-color: #D9D9D9;
   border-radius: 5px;
+  box-shadow: 0 0 0.5em black;
   padding: 9px;
   width: 400px;
-  box-shadow: 0 0 0.5em black;
-  background-color: #D9D9D9;
 }
 
 .projetos {
-  height: 500px;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   justify-content: space-around;
+  height: 500px;
   width: 60%;
 }

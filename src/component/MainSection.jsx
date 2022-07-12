@@ -8,7 +8,7 @@ import '../styles/mainSection.css';
 class MainSection extends React.Component {
   render() {
     return (
-      <section className="principal" id="#principal">
+      <section className="principal" id="principal">
 
         <div className="div-text">
 

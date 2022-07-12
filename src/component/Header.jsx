@@ -1,22 +1,22 @@
 import React from 'react';
 import '../styles/header.css';
 import '../styles/style.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 class Header extends React.Component {
   render() {
     return (
     <header className="header">
 
-      <h1><p id="p"><Link to="#home">‹MR/›</Link></p></h1>
+      <h1 className="h1-header"><Link to="principal">‹MR/›</Link></h1>
       <nav id="nav-menu">
 
         <ul id="ul-menu">
 
-          <Link to="#principal"><li className="li-menu">HOME</li></Link>
-          <Link to="#about"><li className="li-menu">SOBRE MIM</li></Link>
-          <Link to="#central-box"><li className="li-menu">PROJETOS</li></Link>
-          <Link to="#contact"> <li className="li-menu">CONTATO</li></Link>
+          <Link to="principal" spy={true} smooth={true} offset={50} duration={500}><li className="li-menu">HOME</li></Link>
+          <Link to="about" spy={true} smooth={true} offset={50} duration={500}><li className="li-menu">SOBRE MIM</li></Link>
+          <Link to="projects" spy={true} smooth={true} offset={50} duration={500}><li className="li-menu">PROJETOS</li></Link>
+          <Link to="footer" spy={true} smooth={true} offset={50} duration={500}> <li className="li-menu">CONTATO</li></Link>
 
         </ul>
       </nav>
