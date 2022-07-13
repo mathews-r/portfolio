@@ -19,39 +19,3 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-/* @media screen and (max-width: 450px) {
- 
-#imagem-mathews {
-margin-left: 105px;
-}
-
-#header {
-    display: flex;
-    background-color: #036b52;
-}
-
-#footer {
-    display: flex;
-}
-
-#divredesociais {
-    width: 100%;
-    background-color: #036b52; 
-    justify-content: end;
-    margin-top: 40px;
-}
-
-#nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    flex-direction: column;
-}
-
-#section {
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-} */

@@ -19,10 +19,6 @@
   width: 300px;
 }
 
-.img-article:hover {
-  opacity: 0.9;
-}
-
 .about-me {
   display: flex;
   flex-direction: column;

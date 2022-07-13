@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import CardProject from './CardProject';
-import '../styles/projects.css';
 import data from '../services/data';
+import '../styles/projects.css';
 
 export default class Projects extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class Projects extends Component {
             image={project.image}
             name={project.name}
             description={project.description}
-            url={project.url}
+            url={project.id}
             />
             ))}
         </div>
