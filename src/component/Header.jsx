@@ -9,7 +9,12 @@ class Header extends React.Component {
     <header className="header">
 
       <h1 className="h1-header"><Link to="principal">‹MR/›</Link></h1>
-      <nav id="nav-menu">
+      <div className="menu-toogle">
+        <div className="one"></div>
+        <div className="two"></div>
+        <div className="three"></div>
+      </div>
+      <nav className="nav-menu">
 
         <ul id="ul-menu">
 

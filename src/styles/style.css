@@ -66,16 +66,28 @@ a {
 
 @media (max-width: 425px) {
 
-    #nav-menu {
+    html {
+        font-size: 60%;
+    }
+
+    .menu-toogle {
+        width: 40px;
+        height: 30px;
+    }
+
+    .one, .two, .three {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+
+    .nav-menu {
         display: none;
     }
 
     .principal {
         height: 500px;
-    }
-
-    .about {
-        flex-direction: column;
     }
 
     .div-image {
@@ -86,9 +98,10 @@ a {
         display: none;
     }
 
-    html {
-        font-size: 60%;
+    .about {
+        flex-direction: column;
     }
+
 }
 
 @media (max-width: 320px) {
