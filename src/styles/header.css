@@ -12,6 +12,7 @@
   position: fixed;
   text-align: center;
   width: 100%;
+  max-width: 2560px;
 }
 
 .h1-header:hover {
