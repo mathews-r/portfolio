@@ -13,13 +13,13 @@ class MainSection extends React.Component {
         <div className="div-text">
 
           <span id="title">
-            OLÁ, SEJA BEM VINDO(a)!
+            <p>OLÁ, SEJA BEM VINDO(a)!</p>
             <br />
-            EU SOU O <strong>MATHEWS RODRIGUES.</strong>
-            <br /><br />
+            <p>EU SOU O <strong>MATHEWS RODRIGUES.</strong></p>
+            <br />
             <p>SOU DESENVOLVEDOR FRONT-END.</p>
           </span>
-
+          <br />
           <div className="divredesociais">
 
         <a href='https://www.linkedin.com/in/mathewsrodrigues/' target="_blank" rel="noreferrer">
