@@ -28,6 +28,18 @@ a {
 
 /* RESPONSIVIDADE */
 
+@media (max-width: 2560px) {
+    .projetos {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .projetos {
+        width: 100%;
+    }
+}
+
 @media (max-width: 1024px) {
     html {
         font-size: 70%;
@@ -37,6 +49,9 @@ a {
     }
     .principal {
         flex-direction: column;
+    }
+    .projetos {
+        width: 100%;
     }
 }
 

@@ -23,7 +23,6 @@
   align-items: center;
   display: flex;
   justify-content: space-around;
-  width: 70%;
   max-width: 2560px;
   flex-flow: row wrap;
 }
