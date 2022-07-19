@@ -34,4 +34,15 @@
 
 .divredesociais {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoLinkedinAndGit {
+  width: 80px;
+  padding: 0 5px;
+}
+
+.logoLinkedinAndGit:hover {
+  transform: scale(1.1);
 }

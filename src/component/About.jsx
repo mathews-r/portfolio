@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Mathews from '../images/fotomathews.png';
 import '../styles/about.css';
 import '../styles/style.css';
+import download from '../images/download.png';
 
 export default class About extends Component {
   render() {
@@ -19,9 +20,10 @@ export default class About extends Component {
          Oi! Sou Técnico em Automação e atualmente estou em transição de carreira. <br />Estou me dedicando nos estudos para me tornar um desenvolvedor fullstack. <br />Em fev/2022 tomei a decisão de mudar de área e buscar novos desafios.<br />
          Atualmente estou estudando Desenvolvimento Web na Trybe.
       </p>
-      {/* <div>
-        Currículo
-      </div> */}
+      <div className="curriculo">
+        <img src={download} alt="Download do currículo" className="logoDownload"/>
+      <a href="../assets/MATHEWS_RODRIGUES.PDF" download>Currículo</a>
+      </div>
       </div>
   </section>
 

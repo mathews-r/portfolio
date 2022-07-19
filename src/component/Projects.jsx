@@ -7,7 +7,7 @@ export default class Projects extends Component {
   render() {
     return (
       <section className="projects" id="projects">
-          <h2>Projetos</h2>
+          <h2>Projetos Acadêmicos</h2>
         <div className="projetos">
           {data.map((project) => (
             <CardProject

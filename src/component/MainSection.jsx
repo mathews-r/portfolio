@@ -1,7 +1,7 @@
 import React from "react";
 import ImageProg from '../images/imgHome.png';
-import Linkedin from '../images/logolinkedin.png';
-import Github from '../images/logogithub.png';
+import Linkedin from '../images/LI-Logo.png';
+import Github from '../images/GitHub_Logo.png';
 import '../styles/style.css';
 import '../styles/mainSection.css';
 
@@ -23,10 +23,10 @@ class MainSection extends React.Component {
           <div className="divredesociais">
 
         <a href='https://www.linkedin.com/in/mathewsrodrigues/' target="_blank" rel="noreferrer">
-          <img className='logoredesocial' src={Linkedin} alt="Logo Linkedin"/>
+          <img className='logoLinkedinAndGit' src={Linkedin} alt="Logo Linkedin"/>
         </a>
         <a href='https://github.com/mathews-r' target="_blank" rel="noreferrer">
-          <img className='logoredesocial' src={Github} alt="Logo GitHub" />
+          <img className='logoLinkedinAndGit' src={Github} alt="Logo GitHub" />
         </a>
 
         </div>

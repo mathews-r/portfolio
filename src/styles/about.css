@@ -29,3 +29,21 @@
   font-size: 2rem;
   margin-left: 20px;
 }
+
+.curriculo {
+  margin-left: 20px;
+  font-size: 1.5em;
+  width: auto;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.logoDownload {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.curriculo:hover {
+  transform: scale(1.1);
+}
