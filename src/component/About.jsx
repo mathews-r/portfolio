@@ -22,7 +22,7 @@ export default class About extends Component {
       </p>
       <div className="curriculo">
         <img src={download} alt="Download do currículo" className="logoDownload"/>
-      <a href="../assets/MATHEWS_RODRIGUES.PDF" download>Currículo</a>
+      <a href="https://github.com/mathews-r/portfolio/blob/main/src/assets/MATHEWS_RODRIGUES.pdf" download>Currículo</a>
       </div>
       </div>
   </section>

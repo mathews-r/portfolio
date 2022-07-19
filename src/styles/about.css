@@ -42,6 +42,7 @@
 .logoDownload {
   width: 40px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .curriculo:hover {
