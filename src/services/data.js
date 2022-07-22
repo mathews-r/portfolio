@@ -10,18 +10,21 @@ const data = [
     name: 'Pixels Art',
     description: 'JavaScript e manipulação de DOM',
     image: Paleta,
+    url: 'https://mathews-r.github.io/Projeto-Pixels-Art/pixelsart.html'
   },
   {
     id: 'tryunfo',
     name: 'Tryunfo',
     description: 'Componentes com estado/eventos e formulários em React',
     image: Trunfo,
+    url: 'https://mathews-r.github.io/tryunfo/'
   },
   {
     id: 'trybetunes',
     name: 'TrybeTunes',
     description: 'Componentes com estado/eventos e formulários em React',
     image: Music,
+    url: 'https://mathews-r.github.io/trybetunes/'
   },
   {
     id: 'webweather',
@@ -42,6 +45,7 @@ const data = [
     name: 'Online Store',
     description: 'Trabalho em grupo, manipulação de estados, componentes e softskills ',
     image: Store,
+    url: 'https://mathews-r.github.io/online-store/'
   }
 ]
 
