@@ -10,42 +10,42 @@ const data = [
     name: 'Pixels Art',
     description: 'JavaScript e manipulação de DOM',
     image: Paleta,
-    url: 'https://mathews-r.github.io/Projeto-Pixels-Art/pixelsart.html'
+    url: 'Projeto-Pixels-Art/pixelsart.html'
   },
   {
     id: 'tryunfo',
     name: 'Tryunfo',
     description: 'Componentes com estado/eventos e formulários em React',
     image: Trunfo,
-    url: 'https://mathews-r.github.io/tryunfo/'
+    url: 'tryunfo/'
   },
   {
     id: 'trybetunes',
     name: 'TrybeTunes',
     description: 'Componentes com estado/eventos e formulários em React',
     image: Music,
-    url: 'https://mathews-r.github.io/trybetunes/'
+    url: 'trybetunes/'
   },
   {
     id: 'webweather',
     name: 'Web Weather',
     description: 'APIs, componentes',
     image: Clima,
-    url: 'https://mathews-r.github.io/Projeto-Clima-Tempo/climatempo.html',
+    url: 'Projeto-Clima-Tempo/climatempo.html',
   },
   {
     id: 'clockjs',
     name: 'Relógio JavaScript',
     description: 'JavaScript e manipulação de DOM',
     image: 'https://super.abril.com.br/wp-content/uploads/2011/01/em-que-hora-acontecem-mais-enfartes.png',
-    url: 'https://mathews-r.github.io/Projeto-Relogio-JS/relogio.html',
+    url: 'Projeto-Relogio-JS/relogio.html',
   },
   {
     id: 'store',
     name: 'Online Store',
     description: 'Trabalho em grupo, manipulação de estados, componentes e softskills ',
     image: Store,
-    url: 'https://mathews-r.github.io/online-store/'
+    url: 'online-store/'
   }
 ]
 
