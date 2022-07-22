@@ -21,7 +21,7 @@ class Header extends React.Component {
           <Link to="principal" spy={true} smooth={true} offset={50} duration={500}><li className="li-menu">HOME</li></Link>
           <Link to="about" spy={true} smooth={true} offset={50} duration={500}><li className="li-menu">SOBRE MIM</li></Link>
           <Link to="projects" spy={true} smooth={true} offset={50} duration={500}><li className="li-menu">PROJETOS</li></Link>
-          <Link to="footer" spy={true} smooth={true} offset={50} duration={500}> <li className="li-menu">CONTATO</li></Link>
+          <Link to="contato" spy={true} smooth={true} offset={50} duration={500}> <li className="li-menu">CONTATO</li></Link>
 
         </ul>
       </nav>

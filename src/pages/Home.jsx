@@ -4,6 +4,7 @@ import Footer from '../component/Footer';
 import MainSection from '../component/MainSection';
 import About from '../component/About';
 import Projects from '../component/Projects';
+import Form from '../component/Form';
 
 export default class Home extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class Home extends Component {
       <MainSection />
       <About />
       <Projects />
+      <Form />
       <Footer />
       </>
     )
